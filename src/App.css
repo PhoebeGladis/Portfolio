@@ -1,0 +1,392 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+
+:root {
+  --red: #d01c28;
+  --gray: #2e2e2e;
+}
+* {
+  margin: 0;
+}
+
+/* body {
+  font-family: "Poppins", sans-serif;
+} */
+
+button {
+  all: unset;
+  padding: 6px 16px;
+  background: var(--red);
+  height: 32px;
+  color: white;
+  font-weight: 500;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+.hero {
+  display: flex;
+  height: calc(100vh - 80px);
+  gap: 40px;
+  align-items: normal;
+  padding: 70px 10% 0; 
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.hero h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 102px;
+  margin: -3px 0;
+}
+.hero p {
+  font-weight: 600;
+  color: var(--gray);
+  max-width: 400px;
+}
+
+.hero-btn {
+  display: flex;
+  gap: 40px;
+}
+.hero-btn button {
+  font-size: 24px;
+}
+.hero-image img{
+  width: auto;
+  height: 450.4px;
+ 
+}
+.secondary-btn {
+  background: transparent;
+  color: var(--gray);
+  border: 1px solid gray;
+}
+
+.shopping p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.brand-icons {
+  display: flex;
+  gap: 16px;
+}
+
+/* Enable smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  padding: init;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  height: 72px;
+}
+
+nav .logo img {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  cursor: pointer;
+}
+
+nav ul li a,
+nav ul li a:visited,
+nav ul li a:active,
+nav ul li a:hover {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Page Sections (Home) */
+section {
+  padding: 100px 20px;
+  min-height: 100vh;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+
+.skills-container {
+  padding: 40px;
+  background-color: #1a1a1a;
+  color: white;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.skills-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 30px;
+  justify-items: center;
+  align-items: center;
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s;
+}
+
+.skill-card:hover {
+  transform: scale(1.1);
+}
+
+.skill-icon {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.skill-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.icon.c {
+  color: #00599C;
+}
+
+.icon.java {
+  color: #f89820;
+}
+.icon.html {
+  color: #e34c26;
+}
+.icon.css {
+  color: #264de4;
+}
+
+.icon.javascript {
+  color: #f0db4f;
+}
+
+.icon.react {
+  color: #61dafb;
+}
+
+.icon.mysql {
+  color: #00758f;
+}
+
+/* Experiencecss */
+.experience-section {
+  padding: 40px;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.experience-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.experience-card {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 25px 30px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.experience-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.company-logo {
+  width: 60px;
+  height: auto;
+  object-fit: contain;
+}
+
+.company-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #0071bc;
+}
+
+.position {
+  font-size: 1.2rem;
+  margin-top: 4px;
+  font-weight: 500;
+  color: #666;
+}
+
+.experience-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444;
+}
+/*education-css*/
+.education-section {
+  padding: 40px;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.education-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.education-list {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.education-card {
+  padding: 20px 25px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.education-institution {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0071bc;
+  margin-bottom: 5px;
+}
+
+.education-degree {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 4px;
+}
+
+.education-result {
+  font-size: 1rem;
+  color: #444;
+}
+
+/*Project-css*/
+.projects-section {
+  padding: 40px;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.projects-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.projects-list {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.project-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.project-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #0071bc;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.project-tech {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.logo {
+  
+ font-family: "Alfa Slab One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+   
+}
+
