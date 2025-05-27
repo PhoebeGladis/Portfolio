@@ -2,7 +2,7 @@ export default function About() {
   return (
     <main className="hero container">
       <div className="hero-content">
-        {/* <h1>YOUR FEET DESERVE THE BEST</h1> */}
+        {
         <div className="info">
             <h3>Hi Guys</h3>
           <h1>Iam PHOEBE GLADIS KAITHA</h1>
