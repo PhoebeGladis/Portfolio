@@ -1,8 +1,7 @@
 
 import { FaHtml5, FaCss3Alt, FaJava, FaReact, FaJs, FaDatabase } from 'react-icons/fa';
 import { SiC, SiMysql } from 'react-icons/si';
-
-
+import '../styles/Background.css';
 const skills = [
   { name: 'C', icon: <SiC className="icon c"/> },
   { name: 'Java', icon: <FaJava className="icon java"/> },
@@ -15,8 +14,8 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="skills-container">
-      <h2 className="skills-title">My Skills</h2>
+     <section className="skills-section" id="skills">
+      <h2 className="skills-heading">Professional <span className="highlight">Skillset</span></h2>
       <div className="skills-grid">
         {skills.map((skill, index) => (
           <div key={index} className="skill-card">
@@ -25,7 +24,8 @@ const Skills = () => {
           </div>
         ))}
       </div>
-    </div>
+      <div className='stars'></div>
+    </section>
   );
 };
 

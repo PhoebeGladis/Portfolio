@@ -1,4 +1,4 @@
-
+import '../styles/Background.css';
 const projects = [
   {
     title: 'Smart Irrigation System',
@@ -14,14 +14,22 @@ const projects = [
     title: 'Network Intrusion Detection System',
     description: `Developed an IDS to enhance network security by identifying unauthorized access using deep learning techniques.`,
     technologies: 'Python, TensorFlow, Scikit-learn, GAN'
-  }
+  },
+  // {
+  //   title: 'Network Intrusion Detection System',
+  //   description: `Developed an IDS to enhance network security by identifying unauthorized access using deep learning techniques.`,
+  //   technologies: 'Python, TensorFlow, Scikit-learn, GAN'
+  // }
+
 ];
 
 const Projects = () => {
   return (
-    <div className="projects-section">
-      <h2 className="projects-title">Projects</h2>
+     <section className="projects-section" id="projects">
+      <div className="stars"></div>
+      <h2 className="projects-heading">Projects</h2>
       <div className="projects-list">
+        <div className="stars"></div>
         {projects.map((project, index) => (
           <div className="project-card" key={index}>
             <h3 className="project-title">{project.title}</h3>
@@ -30,7 +38,8 @@ const Projects = () => {
           </div>
         ))}
       </div>
-    </div>
+      
+    </section>
   );
 };
 
