@@ -566,3 +566,102 @@ footer.footer {
     left: 20px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .home-section,
+  .about-section {
+    flex-direction: column;
+    padding: 2.5rem 1rem;
+    text-align: center;
+  }
+
+  .home-greeting {
+    font-size: clamp(1.2rem, 4vw, 1.5rem);
+  }
+
+  .home-name {
+    font-size: clamp(1.5rem, 6vw, 2rem);
+  }
+
+  .skills-heading,
+  .projects-heading,
+  .experience-heading,
+  .about-title,
+  .about-subtitle {
+    font-size: clamp(1.5rem, 5vw, 2rem);
+  }
+
+  .skills-grid,
+  .projects-list,
+  .experience-list {
+    gap: 1.5rem;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .projects-section {
+    padding: 2.5rem 1rem;
+  }
+
+  .project-card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .experience-card {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .about-description {
+    font-size: clamp(0.9rem, 3vw, 1rem);
+  }
+
+  .about-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .timeline::after {
+    left: 15px;
+  }
+
+  .timeline-container {
+    padding: 1rem;
+    width: 100%;
+    transform: none !important;
+  }
+
+  .timeline-container::after {
+    left: 15px;
+    transform: none;
+  }
+
+  .navbar-menu {
+    flex-direction: column;
+    gap: 0.5rem;
+    display: none;
+  }
+
+  .navbar-menu.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    background: none;
+    border: none;
+  }
+
+  .footer-icons {
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+
+  
+}

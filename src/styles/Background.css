@@ -24,4 +24,9 @@
     opacity: 0.5;
   }
 }
-
+@media screen and (max-width: 480px) {
+  .stars {
+    background-size: contain;
+    opacity: 0.2;
+  }
+}
