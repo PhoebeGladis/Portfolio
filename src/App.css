@@ -566,7 +566,14 @@ footer.footer {
     left: 20px;
   }
 }
-
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1001;
+}
 @media screen and (max-width: 480px) {
   .home-section,
   .about-section {
@@ -650,11 +657,9 @@ footer.footer {
 
   .hamburger {
     display: block;
-    font-size: 1.5rem;
-    cursor: pointer;
-    padding: 0.5rem 1rem;
-    background: none;
-    border: none;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
   }
 
   .footer-icons {
