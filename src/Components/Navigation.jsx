@@ -18,7 +18,7 @@ function Navigation() {
         ☰
       </button>
       
-    <ul className="navbar-menu">
+      <ul className={`navbar-menu ${isOpen ? "active" : ""}`}>
       <li><Link to="/">Home</Link></li>
       <li><Link to="/about">About</Link></li>
       <li><Link to="/experience">Experience</Link></li>
