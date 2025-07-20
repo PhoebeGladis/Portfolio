@@ -19,14 +19,14 @@ function Navigation() {
       </button>
       
       <ul className={`navbar-menu ${isOpen ? "active" : ""}`}>
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/about">About</Link></li>
-      <li><Link to="/experience">Experience</Link></li>
-      <li><Link to="/education">Education</Link></li>
-      <li><Link to="/skills">Skills</Link></li>
-      <li><Link to="/projects">Projects</Link></li>
-
-      <li><Link to="/resume">Resume</Link></li>
+      <li><Link to="/" onClick={() => setIsOpen(false)}>Home</Link></li>
+        <li><Link to="/about" onClick={() => setIsOpen(false)}>About</Link></li>
+        <li><Link to="/experience" onClick={() => setIsOpen(false)}>Experience</Link></li>
+        <li><Link to="/education" onClick={() => setIsOpen(false)}>Education</Link></li>
+        <li><Link to="/skills" onClick={() => setIsOpen(false)}>Skills</Link></li>
+        <li><Link to="/projects" onClick={() => setIsOpen(false)}>Projects</Link></li>
+        <li><Link to="/resume" onClick={() => setIsOpen(false)}>Resume</Link></li>
+      
     </ul>
   </nav>
 );
