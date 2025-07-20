@@ -8,6 +8,7 @@ import Education from './Components/Education';
 import './App.css'; // for styling and smooth scrolling
 import Home from './Components/Home';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Resume from './Components/Resume';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
       <Route path="/education" element={<Education/>} />
       <Route path="/skills" element={<Skills />} />
       <Route path="/projects" element={<Projects />} />
-      {/* <Route path="/resume" element={<Resume />} /> */}
+      <Route path="/resume" element={<Resume/>} />
     </Routes>
     
   </Router>

@@ -1,6 +1,7 @@
 
 import { Link } from "react-router-dom";
 import '../styles/Background.css';
+import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa';
 const Home = () => {
   return (
     
@@ -11,6 +12,15 @@ const Home = () => {
               <h2 className="home-name">
                 I'M <span className="highlight">PHOEBE GLADIS KAITHA.</span>
               </h2>
+              <div className="footer-icons">
+        <a href="https://github.com/PhoebeGladis" target="_blank" rel="noopener noreferrer">
+          <FaGithub />
+        </a>
+        <a href="https://www.linkedin.com/in/phoebe-gladis-kaitha-75a270243/" target="_blank" rel="noopener noreferrer">
+          <FaLinkedin />
+        </a>
+      </div>
+             
            </div>
     
             <div className="image">
@@ -21,6 +31,7 @@ const Home = () => {
                 style={{ maxHeight: "300px", borderRadius: "12px" }}
               />
             </div>
+            
             
          
     </section>

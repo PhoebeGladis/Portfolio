@@ -1,4 +1,6 @@
 /* General Reset */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
 html, body, #root {
   height: 100%;
   margin: 0;
@@ -13,6 +15,36 @@ html, body, #root {
 } 
 
 
+
+.home-section {
+ display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10rem 7rem;
+  flex-wrap: wrap;
+  background-color: #0d0b21;
+  color: white;
+  overflow: visible;
+  z-index: 1;
+}
+
+.home-greeting {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.home-name {
+  font-size: 2.5rem;
+}
+
+.highlight {
+  color: #00796b;
+  font-weight: bold;
+}
+.image{
+  
+  z-index: 3;
+}
 /* Navbar */
 .navbar {
   display: flex;
@@ -144,7 +176,7 @@ html, body, #root {
 
 .footer-icons a {
   color: #fff;
-  font-size: 24px;
+  font-size: 30px;
   transition: color 0.3s ease;
 }
 
@@ -166,17 +198,18 @@ footer.footer {
 .about-section {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   padding: 10rem 7rem;
   flex-wrap: wrap;
   background-color: #0d0b21;
   color: white;
   overflow: visible;
   z-index: 1;
+  text-align: justify;
 }
 
 .about-content {
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   max-width: 1200px;
   margin: auto;
@@ -184,6 +217,14 @@ footer.footer {
   flex-wrap: wrap;
   z-index: 2;
   position: relative;
+  transform: translateY(-90px);
+   padding-left: 5rem;
+  padding-right:5rem;
+  
+
+}
+.about-description ul{
+  list-style-type: none;
 }
 
 .about-info {
@@ -192,8 +233,10 @@ footer.footer {
 }
 
 .about-subtitle {
-  font-size: 1.5rem;
-  color: #aaa;
+  font-size: 2.5rem;
+    color: #2f80ed;
+  text-align: center;
+
 }
 
 .about-title {
@@ -203,9 +246,10 @@ footer.footer {
 }
 
 .about-description {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   color: #ccc;
   line-height: 1.6;
+ 
 }
 
 .about-image {
@@ -227,34 +271,6 @@ footer.footer {
 
 
 
-.home-section {
- display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 10rem 7rem;
-  flex-wrap: wrap;
-  background-color: #0d0b21;
-  color: white;
-  overflow: hidden;
-  z-index: 1;
-}
-
-.home-greeting {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.home-name {
-  font-size: 2.5rem;
-}
-
-.highlight {
-  color: #00796b;
-  font-weight: bold;
-}
-.image{
-  z-index: 3;
-}
 
 .projects-section {
   position: relative;

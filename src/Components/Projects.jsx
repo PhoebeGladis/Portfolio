@@ -1,9 +1,9 @@
 import '../styles/Background.css';
 const projects = [
   {
-    title: 'Smart Irrigation System',
-    description: `Developed an irrigation system that optimizes water usage by integrating real-time soil moisture and environmental data from sensor networks (soil moisture, DHT11).`,
-    technologies: 'IoT sensors, Fuzzy Logic'
+    title: 'Weather Forecasting Application',
+    description: ` Built a weather forecasting application with real-time weather APIs.Supports multi-city forecasts and search-based interactions.`,
+    technologies: 'React.js , API'
   },
   {
     title: 'Portfolio Website',
@@ -11,10 +11,16 @@ const projects = [
     technologies: 'React, JavaScript, HTML, CSS'
   },
   {
-    title: 'Network Intrusion Detection System',
-    description: `Developed an IDS to enhance network security by identifying unauthorized access using deep learning techniques.`,
-    technologies: 'Python, TensorFlow, Scikit-learn, GAN'
+    title: 'Ecommerce Web Application',
+    description: `Developed a fully functional e-commerce application with a responsive React frontend
+for an optimized user experience.`,
+    technologies: 'MongoDB,Express.js,React.js, Node.js, Bootstrap'
   },
+  {
+    title: 'Smart Irrigation System',
+    description: `Developed an irrigation system that optimizes water usage by integrating real-time soil moisture and environmental data from sensor networks (soil moisture, DHT11).`,
+    technologies: 'IoT sensors, Fuzzy Logic'
+  }
   // {
   //   title: 'Network Intrusion Detection System',
   //   description: `Developed an IDS to enhance network security by identifying unauthorized access using deep learning techniques.`,
