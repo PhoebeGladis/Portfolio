@@ -1,14 +1,22 @@
 
-
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 function Navigation() {
   // const openResume = () => {
   //   window.open('/resume.pdf', '_blank');
   // };
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
   return (
    <nav className="navbar">
     <h1 className="navbar-brand">PORTFOLIO</h1>
+     <button className="hamburger" onClick={toggleMenu}>
+        ☰
+      </button>
     <ul className="navbar-menu">
       <li><Link to="/">Home</Link></li>
       <li><Link to="/about">About</Link></li>
