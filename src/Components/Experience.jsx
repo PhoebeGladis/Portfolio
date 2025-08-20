@@ -5,7 +5,7 @@ const experiences = [
     company: 'S&P Global',
     duration: 'June 2024 – Aug 2024',
     description: `Designed and implemented a dynamic dashboard using Streamlit and Snowflake enabling users to efficiently analyze data and extract actionable insights`,
-    logo: '/images/S&P_Global_logo.svg.png', // make sure this image exists in public/images
+    logo: '/images/S&P_Global_logo.svg.png', 
     skills: ['Snowflake', 'Streamlit', 'Python', 'SQL']
   }
 ];

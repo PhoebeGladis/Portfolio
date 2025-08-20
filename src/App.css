@@ -327,6 +327,33 @@ footer.footer {
   color: #ddd;
 }
 
+
+.project-git {
+  margin-top: 10px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.project-git a {
+  color: #000; /* default dark gray */
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.project-git a:hover {
+  color: #007bff; /* nice blue hover */
+  transform: scale(1.1);
+}
+
+.project-git svg {
+  font-size: 20px; /* make the GitHub icon bigger */
+}
+
 .experience-section {
   padding: 80px 20px;
   background-color: #0b0b2e;
@@ -660,6 +687,7 @@ footer.footer {
     position: absolute;
     top: 1rem;
     right: 1rem;
+     color: #fff;
   }
 
   .footer-icons {
