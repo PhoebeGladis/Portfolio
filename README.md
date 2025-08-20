@@ -2,7 +2,7 @@
 
 A personal **portfolio website** built with **React + Vite** to showcase my skills, experience, and projects.  
 The site is fully responsive, features smooth navigation, and includes sections for education, experience, projects, and resume.
-
+👉 **Live Demo:** https://phoebekaitha.netlify.app/
 ---
 
 ## ✨ Highlights
@@ -22,26 +22,7 @@ The site is fully responsive, features smooth navigation, and includes sections 
 
 ---
 
-## 📂 Folder Structure
-src/
-├── assets/ # Images, logos, static files
-├── components/ # Reusable React components
-│ ├── About.jsx
-│ ├── Education.jsx
-│ ├── Experience.jsx
-│ ├── Footer.jsx
-│ ├── Home.jsx
-│ ├── Navigation.jsx
-│ ├── Particle.jsx
-│ ├── Projects.jsx
-│ ├── Resume.jsx
-│ └── Skills.jsx
-├── styles/ # CSS styles
-│ └── Background.css
-├── App.jsx # Root component
-├── main.jsx # Entry point
-└── index.css # Global styles
----
+
 
 ## 🚀 Getting Started
 
